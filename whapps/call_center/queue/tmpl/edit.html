@@ -35,7 +35,7 @@
                             <ul class="inputs-list">
                                 <li>
                                     <label>
-                                        <span rel="popover" data-content="You can also change individual agent's recording settings under the Agent's section">
+                                        <span rel="popover" data-content="By checking this, all calls going through this queue will be recorded and the recordings will be available on the Web Server you specified in the Call Recording URL field.">
                                             {{if data.record_caller === true}}
                                                 <input type="checkbox" id="record_caller" name="record_caller" checked="checked" />
                                             {{else}}
@@ -48,6 +48,13 @@
                             </ul>
                         </div>
                     </div>
+
+                    <div class="clearfix">
+						<label for="call_recording_url">Call Recording URL</label>
+						<div class="input">
+							<input id="call_recording_url" name="call_recording_url" type="text" placeholder="http://some.server.com/recordings" value="${data.call_recording_url}" rel="popover" data-content="URL of a webserver ready to accept a POST with the call recording, and will accept a GET request to serve the call recording data.."/>
+						</div>
+					</div>
 
                     <div class="clearfix">
                         <label for="moh">Music on Hold</label>
@@ -107,6 +114,14 @@
 							<input class="span2" id="connection_timeout" name="connection_timeout" type="text" placeholder="30" value="${data.connection_timeout}" rel="popover" data-content="In seconds, how long to try to connect the caller before progressing past the queue callflow action (0 for no limit)."/>
 						</div>
 					</div>
+
+                    <div class="clearfix">
+						<label for="agent_ring_timeout">Agent Ring Timeout (s)</label>
+						<div class="input">
+							<input class="span2" id="agent_ring_timeout" name="agent_ring_timeout" type="text" placeholder="15" value="${data.agent_ring_timeout}" rel="popover" data-content="In seconds, how long to ring an agent before progressing to the next agent available."/>
+						</div>
+					</div>
+
 
                     <div class="clearfix">
                         <div class="input">
