@@ -11,7 +11,7 @@ window.translate['config'] = {
 	developer_desc: "Api Ontwikkelaarstool",
 	pbxs_label: "PBX Connector",
 	pbxs_desc: "Beheer je telefooncentrales",
-	numbers_label: "Nummberbeheer",
+	numbers_label: "Nummerbeheer",
 	numbers_desc: "Beheer je telefoonnummers",
 	there_were_errors: "Corrigeer de fouten in het formulier!", //all errors on the form
 	OK: "OK",		//button OK confirm dialog
