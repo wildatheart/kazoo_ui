@@ -18,7 +18,7 @@ window.translate['numbers_manager'] = {
 	monthly_charge: "Maandbedrag",
 	add: "Toevoegen",
 	there_are_no_numbers_available: "Er zijn geen telefoonnummers beschikbaar in de door u gekozen NPA.",
-	your_onfile_credit_card_will_immediately_be_charged: "Your on-file credit card will immediately be charged for any changes you make. If you have changed any recurring services, new charges will be pro-rated for your billing cycle.<br/><br/>Are you sure you want to continue?",
+	your_onfile_credit_card_will_immediately_be_charged: "De aanpassingen die u maakt worden direct afgeschreven van uw creditkaart. Als u terugkerende diensten heeft aangepast dan worden deze pro rated in rekening gebracht.<br/><br/>Weet u zeker dat u verder wilt gaan?",
 	step: "Stap",
 	porting_numbers: "Nummers porteren",
 	current_service_info: "Huidige service informatie",
